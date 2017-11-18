@@ -16,3 +16,7 @@ The **Path Finder** box on the right side will fill up with a a tree styled list
 the **JSON Data.** To add a path **Double Click** on the **Value** that you would want to add to your action and it will appear in the **Selected Paths** textbox on the bottom, one per line.
 
 Copy a single line from the **Selected Paths** and enter it into the Path variable in the WebAPI Parser Action.
+
+
+
+![image1](https://i.gyazo.com/15810d6b16308e92fed18b5b032c6de0.png)
