@@ -16,7 +16,7 @@ namespace PathFinder
         {
             InitializeComponent();
 
-            _website = "";
+            _website = "https://github.com/generalwrex/DBM-WebAPI-Parser-PathFinder";
         }
 
         #region Event Handlers
