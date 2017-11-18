@@ -69,8 +69,8 @@ namespace PathFinder
         {
             string text = @"
              This program was created by General Wrex.
-                
-             It's designed to help you get the Path variable 
+
+             It's designed to help you get the Path variable
              in the WebAPI Parsing mod/action for Discord Bot Maker
 
              Thanks for using this program! If you have any issues please
@@ -140,15 +140,10 @@ namespace PathFinder
 
             foreach (TreeNode row in ancestorList.Reverse())
             {
-                var tag = row.Tag;
-
-                if (tag == null)
+                if (string.IsNullOrEmpty(row.Text))
                     break;
 
-                if (tag is string && tag != null)
-                {
-                    outputPath += "." + row.Tag.ToString();
-                }
+                outputPath += "." + row.Text;
             }
 
             var path = outputPath?.Replace(".body", "").Replace(".PathFinder_JSON_Object", "");
@@ -430,7 +425,5 @@ namespace PathFinder
         }
 
         #endregion Context Menu
-
-
     }
 }
