@@ -345,6 +345,7 @@
             this.ClientSize = new System.Drawing.Size(762, 486);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.toolStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PathFinderForm";
             this.Text = "PathFinder v1.0.0 - generalwrex";
             this.splitContainer1.Panel1.ResumeLayout(false);
